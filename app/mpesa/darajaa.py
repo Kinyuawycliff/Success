@@ -17,7 +17,7 @@ from app.utils.credentials import save_metadata_to_store
 
 # Assuming MPESA_CONFIG is correctly imported from app.config
 MPESA_CONFIG = {
-    "CALLBACK_URL": "https://6494-102-210-247-18.ngrok-free.app/darajaa/callback",
+    "CALLBACK_URL": "https://success-o0zr.onrender.com/darajaa/callback",
     "BUSINESS_SHORT_CODE": "174379",
     "STK_PUSH_URL": "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest",
     "QUERY_STATUS_URL": "https://sandbox.safaricom.co.ke/mpesa/stkpushquery/v1/queryid"
